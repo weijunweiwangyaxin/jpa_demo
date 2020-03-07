@@ -30,7 +30,7 @@ public class JpaDemoController {
     public List<User> show(){
         List<User> users = jpaDemo.findAll();
 
-
+        System.out.println("你好");
         return users;
     }
 }
