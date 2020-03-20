@@ -31,6 +31,7 @@ public class JpaDemoController {
         List<User> users = jpaDemo.findAll();
 
         System.out.println("你好");
+        System.out.println("你好");
         return users;
     }
 }
