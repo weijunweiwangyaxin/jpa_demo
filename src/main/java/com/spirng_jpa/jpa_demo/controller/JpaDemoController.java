@@ -32,6 +32,7 @@ public class JpaDemoController {
 
         System.out.println("你好");
         System.out.println("你好");
+        System.out.println("你好");
         return users;
     }
 }
