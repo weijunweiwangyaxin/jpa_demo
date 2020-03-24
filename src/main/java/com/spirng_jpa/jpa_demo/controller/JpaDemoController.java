@@ -28,10 +28,14 @@ public class JpaDemoController {
     @ApiOperation(value = "jpa测试，查询人员信息",notes = "查询人员")
    // @ApiImplicitParam(name = "id",value = "人员id",required = true)
     public List<User> show(){
+        /**
+         *这是分支2  wei1
+         */
         List<User> users = jpaDemo.findAll();
         int a = 1;
         int b = 3;
         int c = 4;
+        int wei = 6;
         System.out.println("你好");
         System.out.println("你好");
         return users;
