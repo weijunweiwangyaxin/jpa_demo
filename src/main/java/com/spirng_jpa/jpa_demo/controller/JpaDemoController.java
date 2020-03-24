@@ -29,13 +29,15 @@ public class JpaDemoController {
    // @ApiImplicitParam(name = "id",value = "人员id",required = true)
     public List<User> show(){
         /**
-         * 这是分支1  wei分支
+         *这是分支2  wei1
          */
         List<User> users = jpaDemo.findAll();
         int a = 1;
         int b = 3;
         int c = 4;
-        int wei = 5;
+        int wei = 6;
+        int e = 11;
+        int wei1 = 5;
         int d = 10;
         System.out.println("你好");
         System.out.println("你好");
