@@ -36,6 +36,7 @@ public class JpaDemoController {
         int b = 3;
         int c = 4;
         int wei = 5;
+        int d = 10;
         System.out.println("你好");
         System.out.println("你好");
         return users;
