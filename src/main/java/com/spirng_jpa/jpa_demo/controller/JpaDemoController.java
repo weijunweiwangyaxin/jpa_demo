@@ -29,9 +29,9 @@ public class JpaDemoController {
    // @ApiImplicitParam(name = "id",value = "人员id",required = true)
     public List<User> show(){
         List<User> users = jpaDemo.findAll();
-        int a = 2;
+        int a = 1;
         int b = 3;
-        System.out.println("你好");
+        int c = 4;
         System.out.println("你好");
         System.out.println("你好");
         return users;
