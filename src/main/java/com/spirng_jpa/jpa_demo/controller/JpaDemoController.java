@@ -32,7 +32,8 @@ public class JpaDemoController {
          *这是分支2  wei1
          */
         List<User> users = jpaDemo.findAll();
-        int a = 3;
+        int aa = 3;
+        int a = 2;
         int b = 3;
         int c = 4;
         int wei = 6;
